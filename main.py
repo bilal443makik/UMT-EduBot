@@ -166,7 +166,7 @@ def add_teacher_course():
     course_code = request.form.get('course_code')
     pdf_file = request.files['pdf_file']
     csv_file = request.files['csv_path']
-    #################################3
+    #################################
     # Create the uploads folder if it doesn't exist
     if not os.path.exists("uploads"):
         os.makedirs("uploads")
